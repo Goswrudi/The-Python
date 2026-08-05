@@ -8,6 +8,13 @@ while(i<5):
 
 
 # Counting with fix variable in for loops 
-j = 15
-for j in range(i):
+
+j = 16
+for j in range(j):
     print(j)
+
+# Counting in for loop with random numbers
+import random
+k = random.randint(1 , 12)
+for k in range(k):
+    print(k)
