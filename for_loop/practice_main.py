@@ -37,3 +37,12 @@ p = ['apple' , 'mangos', 'kiwi']
 for o in p:
     print(o)
 
+# For loop with else
+
+p = ['apple' , 'mangos', 'kiwi']
+for o in p:
+    print(o)
+else:
+    print('done')
+
+    
