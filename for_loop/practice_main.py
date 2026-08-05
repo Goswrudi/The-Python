@@ -45,4 +45,9 @@ for o in p:
 else:
     print('done')
 
-    
+# For loop with break 
+
+for l in range(100):
+    if(l == 11):
+        break
+    print(l) 
