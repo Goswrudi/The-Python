@@ -31,4 +31,9 @@ for a in range(0 , 100 , 4):
     print(a) 
     # In a way it also printed the table of 4 but with reach of 100
 
-    
+# Iteration in loops 
+
+p = ['apple' , 'mangos', 'kiwi']
+for o in p:
+    print(o)
+
