@@ -59,3 +59,9 @@ for m in range(50):
         continue # Skip The variable(m) number 
     print(m) 
 
+# For loop with pass staement 
+
+# We use this to prevent errors sometimes
+
+for m in range(22):
+    pass
