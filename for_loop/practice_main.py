@@ -47,7 +47,15 @@ else:
 
 # For loop with break 
 
-for l in range(100):
+for l in range(50):
     if(l == 11):
-        break
+        break # Stop the loop when varibale(l) condition appears
     print(l) 
+
+
+# For loop with continue 
+for m in range(50):
+    if(m == 11):
+        continue # Skip The variable(m) number 
+    print(m) 
+
