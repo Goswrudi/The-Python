@@ -8,3 +8,16 @@ def feedinganimals():
         print(f'feeding {feed}')
 
 feedinganimals()
+
+
+'''
+Problem 2 : Create a while loop which will print the contetn of a list  
+'''
+
+lst = ['rudi' , 'sparsh', 'arjun', 'ayush']
+
+i = 0
+
+while(i < len(lst)):
+    print(lst)
+    i += 1
