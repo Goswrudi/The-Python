@@ -14,18 +14,20 @@ class house:
 M1 = house()
 print(M1.house_area , M1.house_color , house.house_size)
 
-class Familynature:
+class FamilyNature:
     sister = 'i wish'
     mother = 'kinda dumb'
     father = 'smart for that dumb mother'
     brother = 'ew !!'
 
-    def __init__(self , motherage):
+    def __init__(self, motherage, marks, character): # an init can handle as many arguments as our computer is capable for 
         self.age = motherage
+        self.marks = marks 
+        self.character = character
         print('ranking familymemebrs....')
 
-FN = Familynature(45)
-print(FN.age)
+FN = FamilyNature(45 , 89 , '10/10')
+print(FN.age , FN.character , FN.marks , )
 
 # Okay So basically a lot of things happend at upper code and I'm explaining everything line by line 
 
