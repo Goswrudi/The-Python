@@ -13,3 +13,43 @@ class house:
 
 M1 = house()
 print(M1.house_area , M1.house_color , house.house_size)
+
+class Familynature:
+    sister = 'i wish'
+    mother = 'kinda dumb'
+    father = 'smart for that dumb mother'
+    brother = 'ew !!'
+
+    def __init__(self , motherage):
+        self.age = motherage
+        print('ranking familymemebrs....')
+
+FN = Familynature(45)
+print(FN.age)
+
+# Okay So basically a lot of things happend at upper code and I'm explaining everything line by line 
+
+# First we set variables name 
+# then we use a constructor known 'init' (it has only be done for stop repetative writing of code )
+# Now we have created init function ! but .. init function runs on two arguments ig --  so let us create the avriables for that || self var = mothervar , cause we want mother too gays --
+# At the end just called the function kindly || hehe\
+#
+# another ai genrated examle is : 
+# 
+'''
+class house:
+    # This runs automatically during creation
+    def __init__(self, color, size, area):
+        self.house_color = color  # Attaches unique color to the object
+        self.house_size = size    # Attaches unique size to the object
+        self.house_area = area    # Attaches unique area to the object
+
+# Creating unique objects instantly
+M1 = house('blue', 125, 'NCR')
+M2 = house('green', 200, 'Mumbai')
+
+print(M1.house_color)  # Outputs: blue
+print(M2.house_color)  # Outputs: green
+
+''' 
+
