@@ -20,6 +20,11 @@ class FamilyNature:
     father = 'smart for that dumb mother'
     brother = 'ew !!'
 
+    # default constructor 
+    def __init__(self):
+        print('Accesing databases ')
+
+    # parameteriszed construtor
     def __init__(self, motherage, marks, character): # an init can handle as many arguments as our computer is capable for 
         self.age = motherage
         self.marks = marks 
@@ -27,7 +32,7 @@ class FamilyNature:
         print('ranking familymemebrs....')
 
 FN = FamilyNature(45 , 89 , '10/10')
-print(FN.age , FN.character , FN.marks , )
+print(FN.age , FN.character , FN.marks)
 
 # Okay So basically a lot of things happend at upper code and I'm explaining everything line by line 
 
@@ -55,3 +60,14 @@ print(M2.house_color)  # Outputs: green
 
 ''' 
 
+
+# Methods in OOP 
+# See what is a method ? , A Method is nothing but a function for oop 
+# for eg : a way of doin
+
+class M:
+    @staticmethod
+    def hello():
+        print('hello ji ')
+
+M.hello()
