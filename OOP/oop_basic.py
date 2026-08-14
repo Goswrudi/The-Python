@@ -71,18 +71,37 @@ class M:
         print('hello ji ')
 
 M.hello()
-# del keyword
+# # del keyword
 
-class rudransh:
-    def __init__(self , name , age):
-        self.name = name
-        self.age = age
+# class rudransh:
+#     def __init__(self , name , age):
+#         self.name = name
+#         self.age = age
 
 
-s1 = rudransh('rudransh goswami' , 12)
-print(s1.name , s1.age)
+# s1 = rudransh('rudransh goswami' , 12)
+# print(s1.name , s1.age)
 
-del s1.name
-print(s1.name)
+# del s1.name
+# print(s1.name)
 
 # Inheritance In OOP 
+# there are many inheritances in oop :
+# Single inheritance
+# Multiple inheritance 
+# Multilevel inheritance
+
+# Single inheritance 
+
+class Tech:
+    def technology(self):
+        print(f'cpu is a type of technology')
+
+class TechComponents(Tech):
+    
+    def cpu(self):
+        print('cpu are the core of all device')
+
+T = TechComponents()
+T.technology() 
+T.cpu()
