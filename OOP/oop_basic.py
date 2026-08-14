@@ -71,3 +71,18 @@ class M:
         print('hello ji ')
 
 M.hello()
+# del keyword
+
+class rudransh:
+    def __init__(self , name , age):
+        self.name = name
+        self.age = age
+
+
+s1 = rudransh('rudransh goswami' , 12)
+print(s1.name , s1.age)
+
+del s1.name
+print(s1.name)
+
+# Inheritance In OOP 
