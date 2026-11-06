@@ -1,13 +1,22 @@
+High-Entropy Password Generator (Python)
 
+An interactive, function-based Password Generator built with Python. This project calculates a highly secure, high-entropy password by combining randomized alphanumeric strings with mathematical boundary integers.
 
-Hey my lovely programming family:
+Features
+- **Custom Character Pooling:** Generates a 12-character high-density string using uppercase letters, lowercase letters, digits, and punctuation characters.
+- **Dynamic Numeric Padding:** Integrates a randomized integer between `-20` and `100` to further complicate traditional dictionary attacks.
+- **Functional Architecture:** Built completely using modular functions to isolate scope and enforce clean code design.
 
-This side me rudransh goswmai and I've tierd of finding the old code which is written by myself again and again, 
-In my version control history & github !!!
+Tech Stack & Concepts Used
+- **Language:** Python 3
+- **Libraries:** - `string` (for standard ASCII character, digit, and punctuation constants)
+  - `random` (for pseudorandom element selection and range parsing)
+- **Concepts Applied:**
+  - Function Definition & Call Stack Execution
+  - String Manipulation & Concatenation (`"".join()`)
+  - Scope Management (Local vs. Global variables)
+  - Control Flow Execution
 
-So I decided that i will create a python repository , Where I'll upload every line of code written by me....
-including many things like python projects summary  , some kind of papers i study , books and ya more of them though!
+How to Run 
 
-
-
--Rudransh Goswami
+Download the main.py file and run it! 
